@@ -1,3 +1,7 @@
+# Changing PowerShell execution policy to insecure level
+
+### Description
+
 PowerShell's execution policy is a safety feature that controls the conditions under which PowerShell loads configuration files and runs scripts. This query will help you identify execution policy changes. Also, you may fine tune the query by excluding InitiatingProcessFileName and InitiatingProcessParentFileName from your environment's applications. 
 
 ### References
