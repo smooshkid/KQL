@@ -22,3 +22,5 @@ AuditLogs
 on $left.SuspUser == $right.SuspUserPw
 | project SuspUser, ConfirmTime, SuspUserPw, PwChangeTime, OperationName, PwChangeTimeframe = (PwChangeTime - ConfirmTime)
 | sort by ConfirmTime desc
+
+Versioning
