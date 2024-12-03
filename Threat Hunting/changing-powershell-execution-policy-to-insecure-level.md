@@ -8,7 +8,7 @@ References
     https://detection.fyi/sigmahq/sigma/windows/process_creation/proc_creation_win_powershell_set_policies_to_unsecure_level/
 
 Microsoft XDR
-
+'''
 let Timeframe = 7d; // Choose the best timeframe for your investigation
 let cmdlet = dynamic([@'-executionpolicy ', @' -ep ', @' -exec ']); 
 let parameters = dynamic([@'Bypass ', @'Unrestricted']); 
@@ -26,7 +26,7 @@ DeviceProcessEvents
     | where not(InitiatingProcessFileName in (['exinitapps']))
     | where not(InitiatingProcessParentFileName in (['exparinitapps']))
     | sort by Timestamp desc 
-
+'''
 MITRE ATT&CK Mapping
 
     Tactic: Execution
