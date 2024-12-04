@@ -1,9 +1,11 @@
-Completed AV Scan
-Description
+# Completed AV Scan
+
+## Description
 
 The following query will check for the Devices declared, when was the last Antivirus Scan completed along with the Scan Type (Quick/Full) and which user initiated it.
-Microsoft 365 Defender
 
+### Microsoft 365 Defender
+```
 // Definde hosts of interest
 let Device = dynamic(["DeviceName1", "DeviceName2", "DeviceName3"]);
 DeviceEvents
@@ -15,9 +17,10 @@ DeviceEvents
 | extend ScanType = AdditionalFields.["ScanTypeIndex"], StartedBy= AdditionalFields.["User"]
 | project Timestamp, DeviceName, ActionType, ScanType, StartedBy
 | sort by Timestamp desc
+```
 
-Microsoft Sentinel
-
+### Microsoft Sentinel
+```
 // Definde hosts of interest
 let Device = dynamic(["DeviceName1", "DeviceName2", "DeviceName3"]);
 DeviceEvents
@@ -29,7 +32,4 @@ DeviceEvents
 | extend ScanType = AdditionalFields.["ScanTypeIndex"], StartedBy= AdditionalFields.["User"]
 | project Timestamp, DeviceName, ActionType, ScanType, StartedBy
 | sort by Timestamp desc
-
-Versioning
-Version 	Date 	Comments
-1.0 	12/03/2024 	Initial publish
+```
