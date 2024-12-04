@@ -1,9 +1,11 @@
-Identification of risky users risk dismissal or account compromised confirmation
-Description
+# Identification of risky users risk dismissal or account compromised confirmation
+
+## Description
 
 The following query will identify through Microsoft Entra ID Protection capacity, risky users operations that include risk dismissal or account compromised confirmation.
-Microsoft Sentinel
 
+### Microsoft Sentinel
+```
 let Timeframe = 90d;
 AuditLogs
     | where TimeGenerated > ago(Timeframe)
@@ -18,3 +20,4 @@ AuditLogs
     //| where SecUser contains @""
     | project TimeGenerated, SuspUser, SecUser
     | sort by TimeGenerated desc
+```
