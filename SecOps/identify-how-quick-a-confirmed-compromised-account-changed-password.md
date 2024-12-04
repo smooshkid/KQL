@@ -1,9 +1,11 @@
-Identify how quick a confirmed compromised account changed password
-Description
+# Identify how quick a confirmed compromised account changed password
+
+## Description
 
 The following query will identify how much time has occurred since a confirmed compromised account, changed password.
-Microsoft Sentinel
 
+### Microsoft Sentinel
+```
 // Define the timeframe you would like to look into
 let timeframe = 90d;
 AuditLogs
@@ -22,5 +24,4 @@ AuditLogs
 on $left.SuspUser == $right.SuspUserPw
 | project SuspUser, ConfirmTime, SuspUserPw, PwChangeTime, OperationName, PwChangeTimeframe = (PwChangeTime - ConfirmTime)
 | sort by ConfirmTime desc
-
-Versioning
+```
