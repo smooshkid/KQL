@@ -1,13 +1,14 @@
-Identify MITRE ATT&CK Techniques
-Description
+# Identify MITRE ATT&CK Techniques
+
+## Description
 
 The following queries provide for Microsoft Sentinel and Microsoft 365 Defender a graphic representation of MITRE ATT&CK techniques from alerts within the timerange defined.
-References
 
-    https://attack.mitre.org/techniques/enterprise/
+## References
+- https://attack.mitre.org/techniques/enterprise/
 
-Microsoft Defender XDR
-
+### Microsoft Defender XDR
+```
 AlertInfo
 // Define timerange
 | where Timestamp > ago(30d)
@@ -16,9 +17,9 @@ AlertInfo
 | summarize count() by tostring(AttackTechniques)
 // Define graphic
 | render piechart 
-
-Microsoft Sentinel
-
+```
+### Microsoft Sentinel
+```
 SecurityAlert
 // Define timerange
 | where TimeGenerated > ago(30d)
@@ -27,4 +28,5 @@ SecurityAlert
 | summarize AlertCount = dcount(SystemAlertId) by Techniques
 | sort by AlertCount desc
 // Define graphic
-| render piechart
+| render piechart 
+```
