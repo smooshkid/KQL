@@ -1,4 +1,4 @@
-
+### DNS subdomain calculator
 
 ```
 // DNS filtering suggestions. This takes into account wildcard usage and limitations from https://learn.microsoft.com/en-us/azure/sentinel/connect-dns-ama#use-wildcards
