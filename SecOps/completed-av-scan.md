@@ -34,7 +34,7 @@ DeviceEvents
 | sort by Timestamp desc
 ```
 ### For a Single Host
-'''
+```
 DeviceEvents
 | where TimeGenerated > ago(2d)
 | where DeviceName has 'device hame here'
@@ -43,4 +43,4 @@ DeviceEvents
 | extend ScanType = AdditionalFields.["ScanTypeIndex"], StartedBy= AdditionalFields.["User"]
 | project Timestamp, DeviceName, ActionType, ScanType, StartedBy
 | sort by Timestamp desc
-'''
+```
