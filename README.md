@@ -1,1 +1,1 @@
-Collection of shared and custom KWL queries for all this information security.
+Collection of shared and custom KQL queries for all things information security.
