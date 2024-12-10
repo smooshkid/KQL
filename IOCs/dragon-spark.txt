@@ -1,8 +1,7 @@
 resources:
   https://www.sentinelone.com/labs/dragonspark-attacks-evade-detection-with-sparkrat-and-golang-source-code-interpretation/
 
-SparkRAT IOC's
-  6920f726d74efb7836a03d3acfc0f23af196765e
+SparkRAT as seen used by DragonSpark
 
 Malware staging infrastructure
   11.149.237[.]108	- China	A compromised server hosting web content related to gambling.
