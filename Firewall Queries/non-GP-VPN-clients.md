@@ -11,7 +11,7 @@ CommonSecurityLog
     and DeviceEventClassID contains 'vpn'
 | summarize count() by DeviceEventClassID
 ```
-### Microsoft Sentinel W/O THREAT Activity
+### Microsoft Sentinel w/o THREAT Activity
 ```
 CommonSecurityLog
 //| where Activity == 'THREAT'
