@@ -2,7 +2,7 @@
 
 ## Description
 
-The following will querey CommonSecurityLogs for **threats** containing VPN usage via firewall logs.
+The following will querey CommonSecurityLogs for **threats** containing VPN usage via firewall logs, showing the distinct VPN names with log count.
 
 ### Microsoft Sentinel
 ```
