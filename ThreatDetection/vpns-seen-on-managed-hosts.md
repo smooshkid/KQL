@@ -2,7 +2,7 @@
 
 ## Description
 
-The following will output vpn clinets seen on companay managed hosts
+The following will querey CommonSecurityLogs for **threats** containing VPN usage via firewall logs.
 
 ### Microsoft Sentinel
 ```
