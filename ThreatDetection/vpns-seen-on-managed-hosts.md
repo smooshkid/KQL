@@ -1,4 +1,4 @@
-# Non Company VPN Usage Seen on Managed Hosts
+# Non company VPN usage seen on managed hosts
 
 ## Description
 
