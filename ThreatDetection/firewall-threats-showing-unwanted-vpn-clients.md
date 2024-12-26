@@ -1,4 +1,4 @@
-# Non company VPN usage seen on managed hosts
+# Non company VPN usage seen on ***Palo Threat Logs***
 
 ## Description
 
