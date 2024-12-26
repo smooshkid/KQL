@@ -1,4 +1,4 @@
-# Non company VPN usage seen on ***Palo Threat Logs***
+# Non GP VPN usage seen on ***Palo Threat Logs***
 
 ## Description
 
