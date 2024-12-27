@@ -12,7 +12,7 @@ CommonSecurityLog
 | summarize count() by DeviceEventClassID
 ```
 ### Microsoft Sentinel w/o THREAT Activity Only
-```
+```KQL
 CommonSecurityLog
 //| where Activity == 'THREAT'
 | where DeviceEventClassID contains 'vpn'
