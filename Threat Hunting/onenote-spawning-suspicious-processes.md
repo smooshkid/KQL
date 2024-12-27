@@ -9,7 +9,7 @@ This query detects processes spawned by onenote.exe that could reflect malicious
 - https://www.rapid7.com/blog/post/2023/01/31/rapid7-observes-use-of-microsoft-onenote-to-spread-redline-infostealer-malware/
 
 ### Microsoft 365 Defender & Microsoft Sentinel
-```
+```KQL
 DeviceProcessEvents
 | where InitiatingProcessParentFileName contains @"ONENOTE.EXE"
 | where InitiatingProcessFileName has_any (@"powershell.exe", @"pwsh.exe", @"wscript.exe", @"cscript.exe", @"mshta.exe", @"cmd.exe")
