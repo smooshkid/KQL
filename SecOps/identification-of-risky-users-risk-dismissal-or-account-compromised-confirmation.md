@@ -5,7 +5,7 @@
 The following query will identify through Microsoft Entra ID Protection capacity, risky users operations that include risk dismissal or account compromised confirmation.
 
 ### Microsoft Sentinel
-```
+```KQL
 let Timeframe = 90d;
 AuditLogs
     | where TimeGenerated > ago(Timeframe)
