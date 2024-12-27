@@ -9,7 +9,7 @@ MSHTA is heavily used by adversaries as it allows to execute arbitrary code usin
 - https://twitter.com/Kostastsale/status/1691302618037903363
 
 ### Microsoft 365 Defender & Microsoft Sentinel
-```
+```KQL
 let Process = DeviceProcessEvents
 | where InitiatingProcessParentFileName has_any (@"powershell.exe", @"pwsh.exe", @"powershell_ise.exe") 
 | where InitiatingProcessFileName has @"mshta.exe"
