@@ -5,7 +5,7 @@
 The following query will check for the Devices declared, when was the last Antivirus Scan completed along with the Scan Type (Quick/Full) and which user initiated it.
 
 ### Microsoft Sentinel
-```
+```KQL
 // Definde hosts of interest
 let Device = dynamic(["DeviceName1", "DeviceName2", "DeviceName3"]);
 DeviceEvents
@@ -19,7 +19,7 @@ DeviceEvents
 | sort by Timestamp desc
 ```
 ### For a Single Host
-```
+```KQL
 DeviceEvents
 | where TimeGenerated > ago(2d)
 | where DeviceName has 'device hame here'
