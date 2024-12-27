@@ -8,7 +8,7 @@ The following query will present email details that have been identified as susp
 - https://www.michalos.net/2023/10/03/investigating-initial-access-in-compromised-email-accounts-using-microsoft-365-defender/
 
 ### Microsoft 365 Defender
-```
+```KQL
 let CompromizedEmailAddress = ""; // Insert the email address of the compromised email address
 let Timeframe = 2d; // Choose the best timeframe for your investigation
 let EmailInformation = EmailEvents
