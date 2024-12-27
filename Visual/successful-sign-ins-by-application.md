@@ -6,7 +6,7 @@ Creates a pie chart showing the number of successful sign-ins by application ove
 
 
 ### Microsoft Sentinel
-```
+```KQL
 SigninLogs
 | where TimeGenerated > ago(14d)
 | where ResultType == "0"
