@@ -9,7 +9,7 @@ Zeek network layer signals for MDE includes the DnsConnectionInspected table whi
 - https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/enrich-your-advanced-hunting-experience-using-network-layer/ba-p/3794693
 
 ### Microsoft 365 Defender & Microsoft Sentinel
-```
+```KQL
 let SuspiciousTLD = externaldata(TLD: string)[@"https://raw.githubusercontent.com/cyb3rmik3/Hunting-Lists/main/netcraft-tlds.csv"] with (format="csv", ignoreFirstRecord=True);
 DeviceNetworkEvents  
 | where ActionType == "DnsConnectionInspected"
