@@ -9,7 +9,7 @@ This hunting query is based on a GULOADER payload delivered through a .vbs file 
 - https://www.virustotal.com/gui/file/5b5eda30397c73f6f55070507ec1a745b161ebbfdab09ab340c0ad7583c59c90
 
 ### Microsoft 365 Defender
-```
+```KQL
 DeviceProcessEvents
 // Define the time you are interested to look into
 | where Timestamp > ago(1d)
@@ -23,7 +23,7 @@ DeviceProcessEvents
 ```
 
 ### Microsoft Sentinel
-```
+```KQL
 DeviceProcessEvents
 // Define the time you are interested to look into
 | where TimeGenerated > ago(1d)
