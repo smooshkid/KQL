@@ -8,7 +8,7 @@ The following query will assist in hunting for suspicious activity similar to re
 
 
 ### Microsoft Defender XDR & Microsoft Sentinel
-```
+```KQL
 let WSLSuspicousList = dynamic(["whoami", "uname", "find", "grep", "cron -l", "/etc/shadow", "/etc/passwd", "/etc/sudoers", "w"]); 
 let TimeFrame = 30d; // Choose the best timeframe for your investigation
 DeviceInfo
