@@ -1,6 +1,6 @@
 # Basic queries for searching Palo Alto firewall logs
 
-##### Queries firewall logs based on an specific firewall and IP address
+##### Queries firewall logs based on a specific firewall and IP address
 ```KQL
 CommonSecurityLog
 | where DeviceVendor == "Palo Alto Networks"
