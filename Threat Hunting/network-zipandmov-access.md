@@ -10,7 +10,7 @@ Google recently announced a series of new gTLDs available for registration among
 - https://twitter.com/8ra5hEmu5/status/1658131948290600964
 
 ### Microsoft 365 Defender
-```
+```KQL
 DeviceNetworkEvents
 // Define the time you are interested to look into
 | where Timestamp > ago(1d)
@@ -30,7 +30,7 @@ DeviceNetworkEvents
 ```
 
 ### Microsoft Sentinel
-```
+```KQL
 DeviceNetworkEvents
 // Define the time you are interested to look into
 | where TimeGenerated > ago(1d)
