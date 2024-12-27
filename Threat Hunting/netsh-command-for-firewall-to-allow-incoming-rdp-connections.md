@@ -8,7 +8,7 @@ Attackers can attempt to enable RDP, including leveraging multiple living-off-th
 - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/ransomware-data-exfiltration
 
 ### Microsoft Defender XDR
-```
+```KQL
 let Timeframe = 1d; // Choose the best timeframe for your investigation
 let fwcommands = dynamic([@"advfirewall", @"firewall", @"add rule", @"dir=in", @"localport=3389", @"action=allow"]);
 DeviceProcessEvents
