@@ -5,7 +5,7 @@
 The following query will return endpoints which have been removed from isolation by looking into relevant registry modifications.
 
 ### Microsoft Defender XDR
-```
+```KQL
 DeviceRegistryEvents
 | where ActionType == "RegistryValueDeleted"
 | where PreviousRegistryKey == @"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Advanced Threat Protection"
