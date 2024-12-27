@@ -8,7 +8,7 @@ Attackers can attempt to enable RDP, including leveraging multiple living-off-th
 - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/ransomware-data-exfiltration
 
 ### Microsoft Defender XDR
-```
+```KQL
 let rdpcommands = dynamic([@"fDenyTSConnections", @"REG_DWORD /d 0"]);
 DeviceProcessEvents
 | where FileName has @"reg.exe"
