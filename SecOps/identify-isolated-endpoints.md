@@ -5,7 +5,7 @@
 The following query will return endpoints which have been isolated by looking into relevant registry modifications.
 
 ### Microsoft Defender XDR
-```
+```KQL
 DeviceRegistryEvents
 | where ActionType == "RegistryValueSet"
 | where RegistryKey == @"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Advanced Threat Protection"
