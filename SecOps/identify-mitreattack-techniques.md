@@ -8,7 +8,7 @@ The following queries provide for Microsoft Sentinel and Microsoft 365 Defender 
 - https://attack.mitre.org/techniques/enterprise/
 
 ### Microsoft Defender XDR
-```
+```KQL
 AlertInfo
 // Define timerange
 | where Timestamp > ago(30d)
@@ -19,7 +19,7 @@ AlertInfo
 | render piechart 
 ```
 ### Microsoft Sentinel
-```
+```KQL
 SecurityAlert
 // Define timerange
 | where TimeGenerated > ago(30d)
