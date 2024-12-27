@@ -63,6 +63,7 @@ AuditLogs
 ```KQL
 CloudAppEvents
 | where TimeGenerated > ago (30d)
-| where RawEventData has_any("user1@whatever.com","user2@whatever.com","555555555","DESKTOP-WHATEVER") and RawEventData has "10.10.10.10"
+| where RawEventData has_any("user1@whatever.com","user2@whatever.com","555555555","DESKTOP-WHATEVER")
+  and RawEventData has "10.10.10.10"
 
 
