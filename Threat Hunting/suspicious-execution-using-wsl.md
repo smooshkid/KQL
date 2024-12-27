@@ -8,7 +8,7 @@ The following query will assist in hunting for suspicious execution using WSL en
 
 
 ### Microsoft Defender XDR & Microsoft Sentinel
-```
+```KQL
 let WSLHostSuspicousList = dynamic(["curl", "/etc/shadow", "/etc/passwd", "cat", "--system", "root", "-e", "--exec", "bash", "/mnt/c/"]); 
 let TimeFrame = 30d; // Choose the best timeframe for your investigation
 DeviceProcessEvents
