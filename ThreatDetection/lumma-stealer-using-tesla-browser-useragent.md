@@ -9,7 +9,7 @@ Recently seen in the wild rising further, Lumma stealer has been observed to per
 - https://darktrace.com/blog/the-rise-of-the-lumma-info-stealer
 
 ### Microsoft 365 Defender & Microsoft Sentinel
-```
+```KQL
 DeviceNetworkEvents
 | where ActionType == "HttpConnectionInspected"
 | extend json = todynamic(AdditionalFields)
