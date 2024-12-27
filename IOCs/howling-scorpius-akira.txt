@@ -1,11 +1,11 @@
-Threat Assessment: Howling Scorpius (Akira Ransomware) IOCs
+# Threat Assessment: Howling Scorpius (Akira Ransomware) IOCs
 
 resource: https://unit42.paloaltonetworks.com/threat-assessment-howling-scorpius-akira-ransomware/
 
-256 Hashes
+**256 Hashes**
 
-SHA256 hashes for examples of Akira ransomware's Windows variant
-
+***SHA256 hashes for examples of Akira ransomware's Windows variant***
+``
     08207409e1d789aea68419b04354184490ce46339be071c6c185c75ab9d08cba
     2727c73f3069457e9ad2197b3cda25aec864a2ab8da3c2790264d06e13d45c3d
     2db4a15475f382e34875b37d7b27c3935c7567622141bc203fde7fe602bc8643
@@ -16,9 +16,9 @@ SHA256 hashes for examples of Akira ransomware's Windows variant
     9f873c29a38dd265decb6517a2a1f3b5d4f90ccd42eb61039086ea0b5e74827e
     1b6af2fbbc636180dd7bae825486ccc45e42aefbb304d5f83fafca4d637c13cc
     cc970bd2673e46c7e0df5430ab617bc2a9214b4d5c2c44252af681a08ff526a8
-
-SHA256 hashes for examples of Megazord
-
+```
+***SHA256 hashes for examples of Megazord***
+```
     131da83b521f610819141d5c740313ce46578374abb22ef504a7593955a65f07
     28cea00267fa30fb63e80a3c3b193bd9cd2a3d46dd9ae6cede5f932ac15c7e2e
     2f629395fdfa11e713ea8bf11d40f6f240acf2f5fcf9a2ac50b6f7fbc7521c83
@@ -37,9 +37,9 @@ SHA256 hashes for examples of Megazord
     28cea00267fa30fb63e80a3c3b193bd9cd2a3d46dd9ae6cede5f932ac15c7e2e
     dfe6fddc67bdc93b9947430b966da2877fda094edf3e21e6f0ba98a84bc53198
     0c0e0f9b09b80d87ebc88e2870907b6cacb4cd7703584baf8f2be1fd9438696d
-
-SHA256 hashes for examples of Akira ransomware's Linux/ESXi variant
-
+```
+***SHA256 hashes for examples of Akira ransomware's Linux/ESXi variant***
+```
     1d3b5c650533d13c81e325972a912e3ff8776e36e18bca966dae50735f8ab296
     300bc2769c6d62ba9d228cc45e126cd458e1a23fd23092da258053afd82f2755
     3805f299d33ef43d17a5a1040149f0e5e2d5db57ec6f03c5687ac23db1f77a30
@@ -56,29 +56,29 @@ SHA256 hashes for examples of Akira ransomware's Linux/ESXi variant
     67f82a54ea49c6f286681d179cc7afc8b41b6b34284cc17bdd52916cc3656160
     6a5e547756ef1256f1eb9df0249245c35461affd009be8f046559bc007cafcf2
     e702a572b514984deacaa54408059c6eac28e46111cb6f0f4190a3a6a72dd41d
-
-SHA256 hashes for examples of Akira_v2
-
+```
+***SHA256 hashes for examples of Akira_v2***
+```
     0ee1d284ed663073872012c7bde7fac5ca1121403f1a5d2d5411317df282796c
     3298d203c2acb68c474e5fdad8379181890b4403d6491c523c13730129be3f75
-
+```
 -------------------------------------------------------------------------------------------------------------------------
   
-Appendices
+## Appendices
 
-Appendix A: Akira Ransomware Windows Variant: Targeted File Extensions
+***Appendix A: Akira Ransomware Windows Variant: Targeted File Extensions***
 
 Howling Scorpius Windows encryptors will avoid encrypting files with the following extensions:
-
+```
     .exe
     .dll
     .lnk
     .sys
     .msi
     .akira
-
+```
 Additionally, the Windows encryptor will avoid the following directories:
-
+```
     tmp
     thumb
     winnt
@@ -90,9 +90,9 @@ Additionally, the Windows encryptor will avoid the following directories:
     System Volume Information
     Trend Micro
     ProgramData
-
-Appendix B: Megazord Termination Commands
-
+```
+***Appendix B: Megazord Termination Commands***
+```
     cmd.exe /c net stop "IBM Domino Diagnostics (CProgramFilesIBMDomino)"
     cmd.exe /c net stop "IBM Domino Server (CProgramFilesIBMDominodata)"
     cmd.exe /c net stop "Simply Accounting Database Connection Manager"
@@ -180,20 +180,20 @@ Appendix B: Megazord Termination Commands
     cmd.exe /c taskkill /f /im veeam*
     cmd.exe /c taskkill /f /im wrsa*
     cmd.exe /c taskkill /f /im wrsa.exe
-
-Appendix C: Akira Ransomware Linux\ESXi Variant: Targeted File Extensions
+```
+***Appendix C: Akira Ransomware Linux\ESXi Variant: Targeted File Extensions***
 
 Akira ransomware's Linux\ESXi encryptors will avoid encrypting files with the following extensions, the same as the Windows encryptors:
-
+```
     .exe
     .dll
     .lnk
     .sys
     .msi
     .akira
-
+```
 Additionally, the Linux\ESXi encryptor will avoid the following directories:
-
+```
     tmp
     thumb
     winnt
@@ -205,3 +205,4 @@ Additionally, the Linux\ESXi encryptor will avoid the following directories:
     System Volume Information
     Trend Micro
     ProgramData
+```
