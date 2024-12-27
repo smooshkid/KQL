@@ -5,7 +5,7 @@ resource: https://unit42.paloaltonetworks.com/threat-assessment-howling-scorpius
 **256 Hashes**
 
 ***SHA256 hashes for examples of Akira ransomware's Windows variant***
-``
+```
     08207409e1d789aea68419b04354184490ce46339be071c6c185c75ab9d08cba
     2727c73f3069457e9ad2197b3cda25aec864a2ab8da3c2790264d06e13d45c3d
     2db4a15475f382e34875b37d7b27c3935c7567622141bc203fde7fe602bc8643
