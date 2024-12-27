@@ -8,7 +8,7 @@ Following a challenging request from a fellow Microsoft Tech Community member, t
 - https://techcommunity.microsoft.com/t5/microsoft-defender-xdr/365-advance-hunting/m-p/3937681
 
 ### Microsoft 365 Defender
-```
+```KQL
 let domainList = externaldata(domain: string) [@"https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt"] with (format="txt"); // Change the text file to whatever you want
 let excludedDomains = datatable(excludeddomain :string)  // Add as many domains you would like to exclude
  ["domain1.tld",
