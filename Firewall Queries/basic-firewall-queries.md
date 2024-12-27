@@ -7,3 +7,11 @@ CommonSecurityLog
 | where DeviceName == ""
 | where SourceIP == ""
 ```
+##### Filters out logs with 'allow' DeviceAction
+```KQL
+CommonSecurityLog
+| where DeviceVendor == "Palo Alto Networks"
+| where DeviceName == ""
+| where SourceIP == ""
+| where DeviceAction <> "allow"
+```
