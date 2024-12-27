@@ -1,7 +1,8 @@
 ### DNS subdomain calculator
 
+**DNS filtering suggestions. This takes into account wildcard usage and limitations from https://learn.microsoft.com/en-us/azure/sentinel/connect-dns-ama#use-wildcards**
+
 ```KQL
-// DNS filtering suggestions. This takes into account wildcard usage and limitations from https://learn.microsoft.com/en-us/azure/sentinel/connect-dns-ama#use-wildcards
 // If you choose to exclude collection on a domain, you should be able to use the "exclusion_domain" field verbatim and follow the instructions https://learn.microsoft.com/en-us/azure/sentinel/connect-dns-ama#dont-collect-events-with-specific-domains
 ASimDnsActivityLogs // identifying all subdomains and calculating the usage
 | extend domain_parts = split(DnsQuery, ".")
