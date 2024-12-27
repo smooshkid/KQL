@@ -8,7 +8,7 @@ Changing the default port 3389 to a non-standard port, could indicate a potentia
 - https://www.blackhillsinfosec.com/rogue-rdp-revisiting-initial-access-methods/
 
 ### Microsoft Defender XDR
-```
+```KQL
 let Timeframe = 1d; // Choose the best timeframe for your investigation
 DeviceRegistryEvents
 | where Timestamp > ago(Timeframe)
