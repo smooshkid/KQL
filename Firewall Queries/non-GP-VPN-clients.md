@@ -15,5 +15,5 @@ CommonSecurityLog
 ```
 CommonSecurityLog
 //| where Activity == 'THREAT'
-    and DeviceEventClassID contains 'vpn'
+| where DeviceEventClassID contains 'vpn'
 | summarize count() by DeviceEventClassID
