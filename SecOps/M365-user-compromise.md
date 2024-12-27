@@ -3,7 +3,7 @@
 
 
 
-##### Searching for failed MFA prompts for *user*
+##### Searching for MFA prompts for *user*
 ```KQL
 SigninLogs
 | where TimeGenerated > ago (30d)
@@ -12,7 +12,7 @@ SigninLogs
 | project TimeGenerated, UserPrincipalName, AppDisplayName, ResultType, IPAddress, UserAgent, Location
 ```
 
-##### Searches for failed MFA prompts for *user* with additional risk
+##### Searches for MFA prompts for *user* with additional risk
 ```KQL
 SigninLogs
 | where TimeGenerated > ago (30d)
