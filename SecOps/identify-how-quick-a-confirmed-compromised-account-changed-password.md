@@ -5,7 +5,7 @@
 The following query will identify how much time has occurred since a confirmed compromised account, changed password.
 
 ### Microsoft Sentinel
-```
+```KQL
 // Define the timeframe you would like to look into
 let timeframe = 90d;
 AuditLogs
