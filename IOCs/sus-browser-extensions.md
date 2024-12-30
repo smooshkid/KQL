@@ -46,13 +46,13 @@ Bard AI chat	                                pkgciiiancapdlpcbppfkmeaieppikkk	1.
 Reader Mode	                                llimhhconnjiflfimocjggfjdlmlhblm	1.5.7           FALSE	300000	12/18/2024	12/18/2024	Removed from the web store 12/19/24
 Primus (prev. PADO)	                        oeiomhmbaapihbilkfkhmlajkeegnjhe	3.18.0	3.20.0	TRUE	40000	12/18/2024	12/25/2024	
 Tackker - online keylogger tool	                ekpkdmohpdnebfedjjfklhpefgpgaaji	1.3	1.4     TRUE	10000	10/6/2023	8/13/2024	
-AI Shop Buddy	                                epikoohpebngmakjinphfiagogjcnddm	2.7.3	        TRUE	4000	4/30/2024		Two version of exploit code present
+AI Shop Buddy	                                epikoohpebngmakjinphfiagogjcnddm	2.7.3	        TRUE	4000	4/30/2024		        Two version of exploit code present
 Sort by Oldest	                                miglaibdlgminlepgeifekifakochlka	1.4.5	        TRUE	2000	1/11/2024		
-Rewards Search Automator	                eanofdhdfbcalhflpbdipkjjkoimeeod	1.4.9	        TRUE	100000	5/4/2024		Two versions of exploit code present. Version 1.5.0 published August 26th, 2024 removed one of them.
+Rewards Search Automator	                eanofdhdfbcalhflpbdipkjjkoimeeod	1.4.9	        TRUE	100000	5/4/2024		        Two versions of exploit code present. Version 1.5.0 published August 26th, 2024 removed one of them.
 Earny - Up to 20% Cash Back	                ogbhbgkiojdollpjbhbamafmedkeockb	1.8.1	        TRUE	10000	4/5/2023		
 ChatGPT Assistant - Smart Search                bgejafhieobnfpjlpcjjggoboebonfcg	1.1.1           TRUE	189	2/12/2024		
 Keyboard History Recorder	                igbodamhgjohafcenbcljfegbipdfjpk	2.3             TRUE	5000	7/29/2024		
-Email Hunter	                                mbindhfolmpijhodmgkloeeppmkhpmhc	1.44	        TRUE	100000	9/17/2024		Region locked on the web store. Accessed from France and India.
+Email Hunter	                                mbindhfolmpijhodmgkloeeppmkhpmhc	1.44	        TRUE	100000	9/17/2024		        Region locked on the web store. Accessed from France and India.
 Visual Effects for Google Meet	                hodiladlefdpcbemnbbcpclbmknkiaem	3.1.3	3.2.4	TRUE	900000	6/13/2023	1/10/2024	
 Cyberhaven security extension V3	        pajkjnmeojmbapicmbpliphjmcekeaac	24.10.4	24.10.5	TRUE	400000	12/24/2024	12/26/2024	
 												  Total Users   2,291,189			
