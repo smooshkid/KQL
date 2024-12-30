@@ -1,7 +1,5 @@
 # IPv4 command detected in lolbin execution
 
-## Query Information
-
 #### Description
 This query returns all LOLbins that refer to a remote IP in the commandline. These remote IPs can be used to make connections for lateral movement or to remotely upload or download files.
 
