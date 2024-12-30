@@ -2,7 +2,7 @@
 
 
 ```KQL
-let SuspiciousTLD = externaldata(TLD: string)[@"https://github.com/smooshkid/KQL/blob/main/IOCs/testing-kql-query-from-github.csv"] with (format="csv", ignoreFirstRecord=True);
+let SuspiciousTLD = externaldata(TLD: string)[@"https://raw.githubusercontent.com/smooshkid/KQL/refs/heads/main/IOCs/testing-kql-query-from-github.csv"] with (format="csv", ignoreFirstRecord=True);
 DeviceNetworkEvents  
 | where ActionType == "DnsConnectionInspected"
 | extend AdditionalFields = todynamic(AdditionalFields)
