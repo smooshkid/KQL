@@ -1,4 +1,4 @@
-# known malicious extensions and/or compromised extensions
+# known malicious browser extensions and/or compromised extensions
 
 
 ```
