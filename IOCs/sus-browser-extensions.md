@@ -55,7 +55,7 @@ Keyboard History Recorder	                igbodamhgjohafcenbcljfegbipdfjpk	2.3  
 Email Hunter	                                mbindhfolmpijhodmgkloeeppmkhpmhc	1.44	        TRUE	100000	9/17/2024		Region locked on the web store. Accessed from France and India.
 Visual Effects for Google Meet	                hodiladlefdpcbemnbbcpclbmknkiaem	3.1.3	3.2.4	TRUE	900000	6/13/2023	1/10/2024	
 Cyberhaven security extension V3	        pajkjnmeojmbapicmbpliphjmcekeaac	24.10.4	24.10.5	TRUE	400000	12/24/2024	12/26/2024	
-					2,291,189			
+												  Total Users   2,291,189			
 								
 Detailed information at: https://secureannex.com/blog/cyberhaven-extension-compromise
 ```					
