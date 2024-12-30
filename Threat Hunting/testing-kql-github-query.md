@@ -1,7 +1,7 @@
 # testing testing one two
 
 
-```
+```KQL
 let SuspiciousTLD = externaldata(TLD: string)[@"https://github.com/smooshkid/KQL/blob/main/IOCs/testing-kql-query-from-github.csv"] with (format="csv", ignoreFirstRecord=True);
 DeviceNetworkEvents  
 | where ActionType == "DnsConnectionInspected"
