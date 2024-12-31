@@ -31,8 +31,6 @@ YesCaptcha assistant
 Proxy SwitchyOmega (V3)
 GraphQL Network Inspector
 ChatGPT for Google Meet
-Primus
-Earny
 ```
 ```
 Name	                                        ID	                              Version	Patch	Available Users	  Start	        End	      Notes
