@@ -3,4 +3,4 @@
 
 ### It is worth mentioning:
 
-*Error codes and messages are subject to change. For the most current info, take a look at the https://login.microsoftonline.com/error page to find AADSTS error descriptions, fixes, and some suggested workarounds.*
+*Error codes and messages are subject to change. For the most current info, take a look at the https://login.microsoftonline.com/error page to find AADSTS error descriptions, fixes, and some suggested workarounds.* - **THANKS MICROSOFT** :)
