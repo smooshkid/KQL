@@ -1,5 +1,19 @@
 # Basic queries for searching Palo Alto firewall logs
-
+##### Useful to understand what data is available in the CommonSecurityLog table
+```KQL
+CommonSecurityLog
+| getschema
+```
+##### Filter by Palo Alto logs
+```KQL
+CommonSecurityLog
+| where DeviceVender == 'Palo Alto Networks'
+```
+##### Filter by Fortigate logs
+```KQL
+CommonSecurityLog
+| where DeviceVender == 'Fortinet'
+```
 ##### Queries firewall logs based on a specific firewall and IP address
 ```KQL
 CommonSecurityLog
@@ -14,4 +28,9 @@ CommonSecurityLog
 | where DeviceName == ""
 | where SourceIP == ""
 | where DeviceAction <> "allow"
+```
+##### Filter for Palo Alto CONFIG logs
+```KQL
+CommonSecurityLog
+| where Activity == 'CONFIG'
 ```
