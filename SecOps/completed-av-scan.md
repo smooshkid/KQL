@@ -9,7 +9,6 @@ The following query will check for the Devices declared, when was the last Antiv
 // Define hosts of interest
 let Device = dynamic(["DeviceName1", "DeviceName2", "DeviceName3"]);
 DeviceEvents
-// Define timeframe below
 | where TimeGenerated > ago(30d)
 | where DeviceName has_any (Device)
 | where ActionType has "AntivirusScanCompleted"
